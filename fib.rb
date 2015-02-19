@@ -26,3 +26,11 @@ print fib(4)
 puts
 print fib(5)
 puts
+
+def fib_hash
+  # there was a post regarding an elegant solution using the
+  # hash default function which seemed interesting to implement.
+  # recursive fib is very expensive unless old values are stored.
+  # ie. memoization
+  # this is todo
+end
